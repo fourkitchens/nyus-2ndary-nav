@@ -4,6 +4,14 @@ This folder contains JavaScript scripts for reviewing changes to the secondary n
 
 All scripts are the same except for the title they insert above the navigation when it is sticky at the top of the page.
 
+## Before
+
+![Before](./assets/before.png)
+
+## After (animated GIF)
+
+![After](./assets/after.gif)
+
 ## Files
 
 ### `scripts/default.js`
