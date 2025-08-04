@@ -28,6 +28,7 @@
   const cssStyles = `
       .updated-nav .pre-content {
           position: sticky;
+          z-index: 1000;
       }
           
       .updated-nav .pre-content.stuck-to-top {
@@ -37,6 +38,7 @@
 
       .updated-nav .secondary-nav__outer {
           background-color: #D2D5D0;
+          border-bottom:1px solid #babbb9;
       }
 
       .updated-nav .secondary-nav__menu__link {
@@ -58,6 +60,10 @@
       .updated-nav .secondary-nav {
           flex-direction: column;
           align-items: start;
+      }
+
+      .updated-nav .secondary-nav>ul svg.hover-down__icon {
+          fill: #57068C;
       }
 
       .updated-nav .stuck-to-top .nav-title {
