@@ -1,0 +1,16 @@
+.updated-nav .pre-content {
+  position: sticky;
+  top: -1px;
+  
+  /* To compensate for the -1px top */
+  padding-top: 1px;
+}
+
+.updated-nav .secondary-nav__outer {
+  background-color: #D2D5D0;
+}
+
+.updated-nav .secondary-nav__menu__link {
+  color: #57068C;
+  font-weight: 800;
+}
