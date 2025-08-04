@@ -2,6 +2,8 @@
 
 This folder contains JavaScript scripts for reviewing changes to the secondary navigation on NYU Steinhardt websites. Each script is designed to be run in the browser console and provides sticky navigation with dynamic titles.
 
+All scripts are the same except for the title they insert above the navigation when it is sticky at the top of the page.
+
 ## Files
 
 ### `scripts/default.js`
