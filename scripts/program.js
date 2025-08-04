@@ -1,7 +1,6 @@
-// Degree Navigation (used degree name as sticky nav title)
-// https://steinhardt.nyu.edu/degree/otd-occupational-therapy-professional
-// https://steinhardt.nyu.edu/degree/otd-occupational-therapy-professional/how-apply
-// https://steinhardt.nyu.edu/degree/otd-occupational-therapy-professional/fieldwork-and-capstone
+// Program Navigation (use program name as sticky nav title)
+// https://steinhardt.nyu.edu/programs/occupational-therapy
+// https://steinhardt.nyu.edu/programs/occupational-therapy/alumni-action
 
 // Console script to insert nav-title div and add functionality
 (function () {
@@ -12,7 +11,7 @@
     // Create the nav-title div
     const navTitleDiv = document.createElement('div');
     navTitleDiv.className = 'nav-title';
-    navTitleDiv.textContent = 'OTD Occupational Therapy Professional';
+    navTitleDiv.textContent = 'Occupational Therapy';
 
     // Insert as first child
     secondaryNav.insertBefore(navTitleDiv, secondaryNav.firstChild);
