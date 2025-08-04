@@ -4,7 +4,7 @@ This folder contains JavaScript scripts for reviewing changes to the secondary n
 
 ## Files
 
-### `default.js`
+### `scripts/default.js`
 - **Purpose**: Main navigation script for non-program specific pages
 - **Target URLs**: Graduate study abroad pages
 - **Features**:
@@ -13,7 +13,7 @@ This folder contains JavaScript scripts for reviewing changes to the secondary n
   - Adds custom CSS styling for the navigation elements
   - Uses Intersection Observer API for scroll detection
 
-### `degree.js`
+### `scripts/degree.js`
 - **Purpose**: Navigation script for degree-specific pages
 - **Target URLs**: Degree program pages (e.g., OTD Occupational Therapy Professional)
 - **Features**:
@@ -22,7 +22,7 @@ This folder contains JavaScript scripts for reviewing changes to the secondary n
   - Adds custom CSS styling for the navigation elements
   - Uses Intersection Observer API for scroll detection
 
-### `program.js`
+### `scripts/program.js`
 - **Purpose**: Navigation script for program-specific pages
 - **Target URLs**: Program pages (e.g., Occupational Therapy)
 - **Features**:
@@ -36,6 +36,7 @@ This folder contains JavaScript scripts for reviewing changes to the secondary n
 These scripts are designed to be executed in the browser console on the respective NYU Steinhardt pages. 
 
 1. Open your browser's console.
-2. When you first try pasting into the console, you may be prevented and asked to give permission. (e.g. Type "allow pasting" to paste in code; from Chrome.)
-3. Paste the script and hit enter.
-4. Review changes.
+2. Copy the appropriate script from `scripts/`
+3. When you first try pasting into the console, you may be prevented and asked to give permission. (e.g. Type "allow pasting" to paste in code; from Chrome.)
+4. Paste the script and hit enter.
+5. Review changes.
